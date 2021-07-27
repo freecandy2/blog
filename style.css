@@ -1,0 +1,36 @@
+html {
+    background: rgb(102, 131, 117);
+} body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    background: white;
+    min-height: 100vh;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #333333;
+}
+
+a {
+    color: rgb(48, 48, 248);
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.candy__head {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
